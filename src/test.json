@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "baseUrl": "."
+    },
+    "include": [
+      "services/*",  
+      "services/**/*",
+      "routes/*",
+      "helpers/*",
+      "middleware/*",
+      "models/*",
+      "resources/*",
+      "repositories/*",
+      "cron/*",
+      "cron/**/*",
+      "tests/**/*"
+    ]
+}
